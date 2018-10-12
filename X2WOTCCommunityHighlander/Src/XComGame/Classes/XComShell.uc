@@ -89,6 +89,10 @@ Begin:
 	//   will not render properly. JMS
 	Sleep(0.001f);
 
+	// Issue #297 Start, register on shell
+	class'X2EventListenerTemplateManager'.static.RegisterStrategyListeners();
+	// Issue #297 End
+
 	WorldInfo.MyLocalEnvMapManager.SetEnableCaptures(true);
 
 	//Wait for any streaming maps to finish coming in
