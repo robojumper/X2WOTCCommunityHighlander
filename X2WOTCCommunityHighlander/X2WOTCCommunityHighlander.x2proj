@@ -336,6 +336,9 @@
     <Content Include="Src\XComGame\Classes\XComGroupSpawn.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\XComGame\Classes\XComShell.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\XComGame\Classes\XComSoundManager.uc">
       <SubType>Content</SubType>
     </Content>
@@ -372,7 +375,7 @@
     <Content Include="Src\XComGame\Classes\X2EventListenerTemplate.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src/XComGame/Classes/X2StrategyElement_DefaultStaffSlots.uc">
+    <Content Include="Src\XComGame\Classes\X2StrategyElement_DefaultStaffSlots.uc">
       <Subtype>Content</Subtype>
     </Content>
     <Content Include="Src\XComGame\Classes\XComGameState_Unit.uc">
