@@ -92,3 +92,13 @@ exec function CHLDumpRunOrderInternals()
 {
 	CHOnlineEventMgr(`ONLINEEVENTMGR).DumpInternals();
 }
+
+exec function CHLStateObjectGCStats()
+{
+	class'X2WOTCCH_TacticalCleanup'.static.CleanupObsoleteTacticalGamestate(true);
+}
+
+exec function CHLStateObjectGCPerform()
+{
+	class'X2WOTCCH_TacticalCleanup'.static.CleanupObsoleteTacticalGamestate(false);
+}
